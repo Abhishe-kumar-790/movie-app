@@ -9,8 +9,8 @@ export default function App() {
         <>
             <Header />
             <Routes>
-                <Route path="/" element={<Movies />} />
-                <Route path="/movie/:id" element={<MovieCard />} />
+                <Route path="/movie-app/" element={<Movies />} />
+                <Route path="/movie-app/movie/:id" element={<MovieCard />} />
                 <Route path="*" element={<Page404 />} />
             </Routes>
         </>
